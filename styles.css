@@ -1,0 +1,81 @@
+body {
+  background: #ccc;
+  transition-delay: 3s;
+}
+@font-face {
+  font-family: "park lane";
+  src: url('parklane.ttf');
+}
+header {
+  padding: 5px;
+  background: #9d0000;
+  text-align: center;
+  color: #aaa;
+  font-family: "park lane";
+  src: url('parklane.ttf');
+}
+#slide-container {
+  width: 600px;
+  margin: 10px  auto;
+  overflow: hidden;
+}
+#slider {
+  width: 580px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  padding: 3px;
+  border: 2px solid #9d0000;
+  border-radius: 5px;
+}
+#slider img {
+  width: 580px;
+  height: 250px;
+}
+.slide {
+  position: absolute;
+}
+
+#seat-container  {
+  width: 800px;
+  height: auto;
+  margin:0 auto;
+  border: 2px solid #9d0000;
+  margin-top: 25px;
+  padding:7px;
+}
+.row {
+  display: inline-block;
+  width: ;
+  margin-left: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#seat-container .seat {
+  width: 50px;
+  height: 45px;
+  border: 1px solid #9d0000;
+  float: left;
+  margin-left: 20px;
+  background-image: url('img/seat.jpg');
+  background-position: center;
+}
+.seat img {
+  margin-left: 100px;
+}
+#seat-container .one {
+  width: 620px;
+  margin-left: 23%;
+}
+#seat-container .two {
+  width: 750px;
+  margin-left: 18%;
+}
+#seat-container .three {
+  width: 820px;
+  margin-left: 13%;
+}
+#seat-container .four {
+  width: 850px;
+  margin-left: 4%;
+}
